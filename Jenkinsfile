@@ -4,6 +4,7 @@ pipeline {
         stage('Welcome Step') {
             steps { 
                 echo 'Welcome to Jenkins pipeline'
+                input 'enter prompt'
                 echo 'change added'
             }
         }
