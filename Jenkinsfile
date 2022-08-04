@@ -9,7 +9,7 @@ pipeline {
             }
         stage('2nd step') {
             echo "This is one more stage"
-            echo `hostname`
+            echo $HOSTNAME
             ifconfig
         }
 
