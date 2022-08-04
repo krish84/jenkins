@@ -13,7 +13,7 @@ pipeline {
             steps {
             echo "This is one more stage"
             
-            ifconfig
+            sh ifconfig
             }
         }
     }
